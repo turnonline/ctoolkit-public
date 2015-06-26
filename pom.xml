@@ -68,7 +68,51 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.2</version>
             </plugin>
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
+                <configuration>
+                    <!-- The commit message -->
+                    <message>Creating site for ${project.build.finalName}</message>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>site-deploy</phase>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <!-- Overridden as origin org.eclipse.egit.github.core:jar:3.1.0.201310021548-r is not available in maven central, see https://github.com/github/maven-plugins/issues/74 -->
+                        <groupId>org.eclipse.mylyn.github</groupId>
+                        <artifactId>org.eclipse.egit.github.core</artifactId>
+                        <version>2.1.5</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.4</version>
+                <configuration>
+                    <!-- Using the Github Site Plugin thus don’t want to use the traditional upload feature so disabled -->
+                    <skipDeploy>true</skipDeploy>
+                </configuration>
+            </plugin>
         </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <!--its here to setup concrete plugin version-->
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>2.8</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
     <distributionManagement>
@@ -84,6 +128,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.global.server>github</github.global.server>
     </properties>
 
     <profiles>
