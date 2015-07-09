@@ -4,10 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.maven</groupId>
     <artifactId>ctoolkit-parent</artifactId>
-    <version>3-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>CtoolkiT super pom</name>
     <description>Super pom for use in all CtoolkiT's projects</description>
+    <url>https://github.com/turnonline/ctoolkit-parent</url>
 
     <scm>
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-parent.git</connection>
