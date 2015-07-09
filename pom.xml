@@ -11,6 +11,13 @@
     <name>CtoolkiT super pom</name>
     <description>Super pom for use in all CtoolkiT's projects</description>
 
+    <scm>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-parent.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-parent.git</developerConnection>
+        <url>https://github.com/turnonline/ctoolkit-parent</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <organization>
         <name>Comvai - TurnOnline.biz</name>
         <url>https://www.turnonline.biz</url>
