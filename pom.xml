@@ -18,6 +18,10 @@
         <tag>HEAD</tag>
     </scm>
 
+    <issueManagement>
+        <url>https://github.com/turnonline/ctoolkit-parent/issues</url>
+    </issueManagement>
+
     <developers>
         <developer>
             <name>Aurel Medvegy</name>
