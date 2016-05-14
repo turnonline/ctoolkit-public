@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.maven</groupId>
     <artifactId>ctoolkit-parent</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
     <packaging>pom</packaging>
     <name>CtoolkiT super pom</name>
     <description>Super pom for use in all CtoolkiT's projects</description>
@@ -15,7 +14,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-parent.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-parent.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-parent</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-parent-4</tag>
     </scm>
 
     <issueManagement>
