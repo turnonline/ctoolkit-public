@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.maven</groupId>
-    <artifactId>ctoolkit-parent</artifactId>
-    <version>6-SNAPSHOT</version>
+    <artifactId>ctoolkit-public</artifactId>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>CtoolkiT super pom</name>
-    <description>Super pom for use in all CtoolkiT's projects</description>
-    <url>https://github.com/turnonline/ctoolkit-parent</url>
+    <name>CtoolkiT Public Parent POM</name>
+    <description>CtoolkiT parent POM for use in all public cloud toolkit based projects</description>
+    <url>https://github.com/turnonline/ctoolkit-public</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-parent.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-parent.git</developerConnection>
-        <url>https://github.com/turnonline/ctoolkit-parent</url>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-public.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-public.git</developerConnection>
+        <url>https://github.com/turnonline/ctoolkit-public</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/turnonline/ctoolkit-parent/issues</url>
+        <url>https://github.com/turnonline/ctoolkit-public/issues</url>
     </issueManagement>
 
     <developers>

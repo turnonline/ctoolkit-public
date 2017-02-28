@@ -1,2 +1,2 @@
-# super-pom
-Super pom for use in all CtoolkiT's projects
+# ctoolkit-public
+CtoolkiT parent POM for use in all public cloud toolkit based projects
