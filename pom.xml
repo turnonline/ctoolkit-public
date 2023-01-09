@@ -156,9 +156,9 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
-            <id>turnonline-snapshots</id>
-            <name>TurnOnline.biz private snapshots repository</name>
-            <url>https://maven.turnonline.biz/content/repositories/snapshots/</url>
+            <id>ossrh</id>
+            <name>Central Snapshots Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
